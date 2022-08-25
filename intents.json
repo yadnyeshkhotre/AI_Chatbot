@@ -1,0 +1,612 @@
+{
+  "intents": 
+  [
+
+    {
+      "tag":"greetings",
+      "patterns":["hii","hello","hey","whats up","hi","heyy","hii","hello"],
+      "responses":["Hello Namaste, I'm AICTE DIGITAL ASSISTANT \n\nYou May Directly Ask the Questions Or Select any Category:\n\n**__Approval Process__**\n**__Margdarshan__**\n**__Scholership__**\n**__Vidyanjali__**\n**__Public Grievance__**\n**__ATAL__**\n**__SWAYAM__**\n**__AQIS__**"]
+    },
+    {
+      "tag":"goodbye",
+      "patterns":["bye","goodbye","see you","exit","leave","byebye"],
+      "responses":["Goodbye","Thank you !","Sad to see you go :("]
+    },
+
+    {
+      "tag":"approval process",
+      "patterns":["Approval Process","approval process","Approval process","APPROVAL PROCESS","Process of approval","process of approval"],
+      "responses":["\n||-     **About Approval Process**     -||-     **Admission**     -||\n\n||-     **Affidavit**     -||-     **Appeal**     -||\n\n||-     **Application Submission**     -||-     **Approved Application**     -||\n\n||-     **Break in EoA**     -||-     **Change Of Site**     -||\n\n||-     **Closure Of Course**     -||-     **Closure Of Institute**     -||\n\n||-    **Course Name Change**     -||-     **Courses**      -||\n\n||-     **Deficiency**     -||-     **Digital Signature**     -||\n\n||-     **Diploma To Degree Conversion**     -||-     **Director/Principal**     -||\n\n||-     **Emerging Area**     -||-     **Enrolment**     -||\n\n||-     **Faculty**     -||-     **General**     -||\n\n||-     **Indian Language**    -||-     **Infrastructure**     -||\n\n||-     **Library**     -||-     **Merger of Institute**     -||\n\n||-      **Minority**      -||-     **New Institue**     -||\n\n||-     **New Program New level**     -||-     **NRI**     -||\n\n||-     **ODL/Online**     -||-     **Payment**     -||\n\n||-     **Policy**     -||-     **QE Mandate**     -||\n\n||-     **Report**     -||-     **Restoration**     -||\n\n||-     **scrutiny**     -||-     **Society/Trust/Company**     -||\n\n||-     **TER**     -||-     **Twinning Programme**     -||\n\n||-     **Types Of Institution**     -||\n\n||-     **University**     -||"]
+    },
+    {
+      "tag":"About approval process",
+      "patterns":["About approval process","about approval process"],
+      "responses":["Following are the FAQs I can help you with: \n\n     ||What is Approval Process?||\n||Main Category||     ||Approval Process Sub Category||"]
+    },
+    {
+      "tag":"wht is apprvl",
+      "patterns":["What is approval process?","What is approval process","what is approval process"],
+      "responses":["As defined in the AICTE act 1987, \nTechnical Education means programs, of Education, Research, and training in \n Engineering and Technology, Architecture, Town Planning, Management,\nPharmacy,and Applied Arts and Crafts,and such other programs or areas as \nthe CentralGovernment may in consultation with the Council,\nby notification in the official gazette declare.\n\n\nPlease select the category to know more about:\n||Main Category||     ||Approval Process Sub Category|| "]
+    },
+    {
+      "tag":"main cat",
+      "patterns":["main category of approval process","Main category of approval process","Main category","main category","Main Categories","Main categories","main categories"],
+      "responses":["I can help you with Following Category:-\n\n1.Approval Process     2.Margdarshan     3.Scholership\n4.Vidyanjali     5.Public Grievance     6.ATAL\n7.SWAYAM     8.AQIS"]
+    },
+    {
+      "tag":"Margdarshan",
+      "patterns":["Margdharshan","margdarshan","MARGDARSHAN"],
+      "responses":["Please select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"about marg",
+      "patterns":["about margdarshan","About margdarshan"],
+      "responses":["As per this Scheme, Senior academicians (serving or superannuated)\nshall be nominated as Margdarshak(MD) to act as individual mentors for guiding beneficiary institutes\nto achieve the NBA accreditation and enhance the quality of technical education.\nCouncil is making payment of Traveling Allowance (as per actual)\nand Honorarium of Rs.5000/- per day to these Margdarshaks.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+                
+            
+    {
+      "tag":"mi/mbi",
+      "patterns":["mi/mbi","Mi/Mbi","MI/MBI"],
+      "responses":["Following are the FAQs I can help you with:\n\ntype the number for following FAQ's answer\n1)Is NBA accreditation mandatory for institutions to become MI?\n2)Which can be the Mentee Beneficiary Institutes (MBIs)?\n3)What are the guidelines for selection of MBIs?\n4)What is the procedure for change MBI?\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral.\nMain Category"]
+    },
+    {
+      "tag":"faq1",
+      "patterns":["1"],
+      "responses":["Que:-1)Is NBA accreditation mandatory for institutions to become MI?\n\nYes, an institute making an application for MI must have accredited programmes\nwhich should be valid for at least six months from the date of submission of the proposal.\n(Refer to Chapter 2, Para 3(b) to (d) of the guidelines).\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral.\nMain Category"]
+    },
+    {
+      "tag":"faq2",
+      "patterns":["2"],
+      "responses":["Que:-2)Which can be the Mentee Beneficiary Institutes (MBIs)?\n\nOnly AICTE approved institutes having potential to go for NBA accreditation and willing to get mentorship under Margdarshan scheme are called Mentee Beneficiary Institutes (MBIs).\nMaximum of 10 such MBIs can be mapped with an MI for mentoring\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral.\nMain Category"]
+    },
+    {
+      "tag":"faq3",
+      "patterns":["3"],
+      "responses":["Que:-3)What are the guidelines for selection of MBIs?\n\nKindly refer to Chapter 2, para 5 of the Margdarshan Initiative document.\nOnly AICTE approved institutes are eligible to receive mentoring from Mls. For the sake of convenience,\nthe MIs are expected to choose MBIs which are in their vicinity with a maximum distance of 200 km.\nMIs have to submit present status of the department-wise Pre-Qualifier (as per NBA format) of all the proposed MBIs.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"faq4",
+      "patterns":["4"],
+      "responses":["Que:-4)What is the procedure for change MBI?\n\nNo change in MBIs (addition, deletion or change)\nwhat-so-ever shall be permitted (including voluntary withdrawal by MBI itself) as the same shall lead to dilution of objective.\nHence Mls must exercise due diligence in making the DPR / selection of beneficiary institutes\nlooking forward for accreditation from NBA.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"MD/MDBI",
+      "patterns":["md/mbi","MD/MDBI","Md/Mdbi"],
+      "responses":["Following are the FAQs I can help you with:\n\ntype the letters for following FAQ's answer:-\n\na)Are Margdarshaks agents of AICTE?\nb)What are the credentials for nomination as Margdarshak?\nc)Will AICTE issue some identity card/official recognition etc. to Margdarshaks?\nd)Can an Margdarshak Beneficiary Institute (MDBI) have more than one Margdarshak?\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"faq1",
+      "patterns":["a"],
+      "responses":["No. They are facilitators for helping the Institutes desirous of seeking the NBA accreditation of their programmes.\nMargdarshaks are mapped based on the willingness of the institute.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"faq2",
+      "patterns":["b"],
+      "responses":["Kindly refer Chapter 3 para 3of guidelines for detailed explanation.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"faq3",
+      "patterns":["c"],
+      "responses":["Nomination as Margdarshak is honorary in nature and does not carry any ex-officio appointment.\nThe AICTE does issue any identity card. Use of the logo of Gol, MHRD, AICTE on the visiting cards, letter heads etc.\nis inappropriate and not allowed.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"faq4",
+      "patterns":["d"],
+      "responses":["No. Only one Margdarshak is assigned to an MDBI.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"general",
+      "patterns":["General","general","GENERAL"],
+      "responses":["Following are the FAQs I can help you with:\n\ntype the letters for following FAQ's answer:-\n\ne)What is the objective of Margdarshan Initiative?\nf)Who can apply to be a mentor institute in Margdarshan scheme?\ng)How is Margdarshan implemented?,.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+      
+    {
+      "tag":"faq1gen",
+      "patterns":["e"],
+      "responses":["Margdarshan initiative has been introduced with a broad objective to improve the quality of technical education in the country.\nThe outcome of the initiative shall be to reform activities\nin the AICTE approved institutes such that the quality and equity of technical education improves in a reasonable time-frame.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"faq2gen",
+      "patterns":["f"],
+      "responses":["A well-established AICTE approved institute shall be nominated as Margdarshan Institute or Mentor Institute (MI) by AICTE\nfor its continued excellence in imparting technical education in the Country.\nThe institutions fulfilling the undermentioned requirements are eligible to submit the proposals:-\n\n The institution, i.e. university, institute, college, etc.\nshould have been approved by AICTE.\nThe institution should be in existence for 15 years or more.\nThere should not have been any penal / administrative action from AICTE / other regulatory bodies during the last l5 years of its existence.\nInstitution having break in Extension of Approval or no admission in the institution for any reason whatsoever in the last 15 years shall not be considered.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"faq3gen",
+      "patterns":["g"],
+      "responses":["This is implemented via two channels, viz Mentor Institutes and Margdarshaks.\nPart 1: Margdarshan Institute A well-established AICTE approved institute referred to as Margdarshan Institute or Mentor Institute (MI)\nis supported with an objective to mentor up to 10 nearby institutes in achieving the NBA accreditation.\nDetails are covered in Chapter  Part 2: Margdarshaks Senior academicians (serving or superannuated) shall be nominated as Margdarshak (MD)\nto act as individual mentors for guiding beneficiary institutes to achieve the NBA accreditation and enhance the quality of technical education.\n\nPlease select any of the below sub-category:\n\n About Margdarshan \nMI/MBI \nMD/MDBI \nGeneral\nMain Category"]
+    },
+    {
+      "tag":"scholership",
+      "patterns":["Scholership","scholership","scholership","tell about scholership"],
+      "responses":["I can help you with following Schemes:\n\nI can help you with following Schemes:\nPG Scholership\nSWANATH\nPragati\nSaksham\nPMSS\nADF"]
+    },
+    {
+      "tag":"PG Scholarship",
+      "patterns":["pg","Pg","PG","hostel","staying rooms","accomodation"],
+      "responses":["Please select any of the below sub-category:\n\nAbout PG Scholarship\nGuidelines\nFinancial\nPG General"]
+    },
+    {
+      "tag":"About PG Scholarship",
+      "patterns":["about scholarships","About PG Scholarship","About Pg Scholership","About pg scholership","about pg scholership","PG Scholership","Pg scholership","pg scholership"],
+      "responses":["Scholarship is awarded to full time GATE/GPAT qualified students admitted to M.E./ M. Tech/ M. Arch and M.Pharma courses\nin AICTE approved Institutions/Colleges @Rs. 12,400/- PM/ student.\n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuid Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"Guidelines",
+      "patterns":["Guidelines","guidelines","Guidelines","guide lines","Guide lines","guide lines","Guide lines","guide lines",
+      "Guidelin","guideline","Guide line","guide line","Guide line","guide line","Guide line","guide line"],
+      "responses":["Following are the FAQs I can help you with:\n\ntype the letters for following FAQ's answer:-\n\nh)What are the objective and rate of scholarship under the scheme?\ni)What is the duration of PG scholarship period?\nj)What are the eligibility condition for availing PG scholarship under the scheme?\nk)Is there any reservation for EWS?\n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuid Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"faq1guide",
+      "patterns":["h"],
+      "responses":["Que:-h)What are the objective and rate of scholarship under the scheme?\nAICTE in order to ensure development of technical education in India awards Post Graduate Scholarship of Rs. 12,400/- per month\nto full-time GATE/GPAT/CEED qualified students admitted to AICTE approved\npost graduate programs in AICTE approved Institutions/ University Departments as per AICTE approved intake.\n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuid Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"faq2guid",
+      "patterns":["i"],
+      "responses":["Que:-i)What is the duration of PG scholarship period?\nThe Scholarship is tenable for 24 months or for the duration of the course\ni.e. from the date of commencement of classes till the date of completion of the classes whichever is lower and is not extendable under any circumstance\nStudents of final years of dual degree integrated programmes would also be entitled to PG Scholarship\nfrom the 9th semester onwards in case they get a CGPA score of 8 or above (on a scale of 10 )\ni.e. only for one year in final year.\n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuid Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"faq3guid",
+      "patterns":["j"],
+      "responses":["Que:-j)What are the eligibility condition for availing PG scholarship under the scheme?\nPost Graduate Scholarship is entitled only to those students:  Having a valid GATE/ GPAT/CEED score at the time of admissio\nMust be admitted as a full-time scholar\nStudents of final years of dual degree integrated programmes would also be entitled to PG Scholarship from the 9th semester onwards\nin case they get a CGPA score of 8 or above (on a scale of 10 ) i.e. only for one year in final year\nAdmitted in AICTE approved Institutions / University Departments & AICTE approved programs\nviz. Master of Engineering, Master of Technology, Master of Architecture, Master of Pharmacy and Master of Design.\nNumber of PG Scholarship is limited to the AICTE approved intake in the programme in that year.\n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuid Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"faq4guide",
+      "patterns":["k"],
+      "responses":["Que:-k)Is there any reservation for EWS?\nIn addition to the approved intake, AICTE will provide PG scholarship to the additional 10% candidates\nover and above the approved intake of that course from EWS category,\nif the university/ institute has admitted students from Economically Weaker Sections (EWSs) as per MHRD OM F.No.12-4/2019-U1 dated 17th January 2019.\n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuid Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"financial",
+      "patterns":["Financial","financial","FINANCIA"],
+      "responses":["Following are the FAQs I can help you with:\n\nl)Is there any condition for payment of PG scholarship?\nm)Is there any condition for payment of PG scholarship?\nn)Is there any salary grant, contingencies etc?\no)What is the method for payment of PG Scholarship?\n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuide Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"faq1",
+      "patterns":["l"],
+      "responses":["Que:-l)Is there any condition for payment of PG scholarship?\nThe Scholarship will be granted to the student on a monthly basis subject\nto the satisfactory academic performance and adherence to University/Institute norms/rules and regulations\nas applicable time to time, certified by the Head of the Institute and obligatory work as prescribed.Please select any of the below sub-category:\n\nAbout PG Scholarship\nGuide Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"faq2",
+      "patterns":["m"],
+      "responses":["Que:-m)Is there any condition for payment of PG scholarship?\nThe amount of PG Scholarship is subject to change\nas per the notification issued by Ministry of Human Resource Development (MHRD), New Delhi (now Ministry of Education) from time to time,\nwith the approval of the Executive Committee of the Council.Please select any of the below sub-category:\n\nAbout PG Scholarship\nGuide Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"faq3",
+      "patterns":["n"],
+      "responses":["Que:-n)Is there any salary grant, contingencies etc?\nSalary grant or any other grant e.g. Contingencies, Library, Books etc, will not be admissible\nto the Institute/College/ University implementing this scheme in compliance with\nthe instructions of Govt. of India, Ministry of Human Resource Development, Deptt. of Higher Education, Technical Section - I\nconveyed vide letter No. F. No. 9-2/2007-TS.I dated 22nd July, 2008.Please select any of the below sub-category:\n\nAbout PG Scholarship\nGuide Lines\nFinancial\nPG General\nMain Category"]
+    },
+        
+    {
+      "tag":"faq4",
+      "patterns":["o"],
+      "responses":["Que:-o)What is the method for payment of PG Scholarship?\nPG scholarship is released through PFMS on Aadhar Bridge Payment System (ABPS).\nThe requirements of bank details etc. are discarded with as details of Aadhar suffice\nthe requirement for release of scholarship on ABPS through PFMS.Please select any of the below sub-category:\n\nAbout PG Scholarship\nGuide Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"link PG General",
+      "patterns":["PG General","PG general","Pg general","pg general"],
+      "responses":["Sorry for the inconvenience but I do not understand your request.\nCan you please rephrase the question (Or)\nIf you have any queries, suggestion, enquiry, grievance, complaint, appreciation,\nwant to support or required support then Please raise grievance or\nticket through below link: https://css.aicte-india.org/ \n\nPlease select any of the below sub-category:\n\nAbout PG Scholarship\nGuide Lines\nFinancial\nPG General\nMain Category"]
+    },
+    {
+      "tag":"vidyanjali",
+      "patterns":["Vidyanjali","vidyanjali"],
+      "responses":["Please select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":" Registration",
+      "patterns":["Registration","registration"],
+      "responses":["Following are the FAQs I can help you with:\n\ntype the letters for following FAQ's answer:-\np)Who can register as volunteer on Vidyanjali Higher Education portal?\nq)Is it mandatory for an institute to  register on Vidyanjali portal  as volunteer also,if they are already registered as institute?\nr)I did not received the Verification Email. Hence, I am unable to register on the Vidyanjali portal?\ns)Institute is unable to register on the Vidyanjali portal. As we are receiving an error message\nt)Vidyanjali Sub Categories\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"faq1",
+      "patterns":["p"],
+      "responses":["Que:-p)Who can register as volunteer on Vidyanjali Higher Education portal?\nVolunteer can be anyone, such as student, faculty, NRI, corporate, PIO etc.\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"faq2",
+      "patterns":["q"],
+      "responses":["Que:-q)Is it mandatory for an institute to  register on Vidyanjali portal  as volunteer also,if they are already registered as institute?\nNo, it is not mandatory\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"faq3",
+      "patterns":["r"],
+      "responses":["Que:-r)I did not received the Verification Email. Hence, I am unable to register on the Vidyanjali portal?\nPlease contact vidyanjalihe@aicte-india.org\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"faq4",
+      "patterns":["s"],
+      "responses":["Que:-s)Institute is unable to register on the Vidyanjali portal. As we are receiving an error message\nThe details on the Vidyanjali portal gets auto fetched from AISHE Portal.\nTherefore, we suggest you  please visit AISHE Portal to update the details.\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+                  
+                
+    {
+      "tag":"Support Request",
+      "patterns":["Support Request","Support request","support request"],
+      "responses":["Types of requests that can be raised on the vidyanjali Portal:\n  ACADEMIC/ACTIVITY SUPPORT(e.g. Teaching Yoga, Teaching Vocational Skills, Mentoring Students for Placement Opportunities)\nSPONSORING SUPPORT (e.g. Sponsoring Trained Counsellors, Sponsoring for Participation in Sports,\nSponsoring Seminar/Conference in the Institute) ASSET/MATERIAL/EQUIPMENT SUPPORT\n(e.g. Basic Electrical Equipment Support, Indoor & Outdoor Games)\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"**link**** User Manual",
+      "patterns":["User Manual","User manual","user Manual"],
+      "responses":["Visit vidyanjali Portal https://vidyanjali-he.education.gov.in/   |Click on User Manuals|"]
+    },
+    {
+      "tag":"Volunteering",
+      "patterns":["Volunteering","volunteering"],
+      "responses":["Following are the FAQs I can help you with:\n\ntype the letters for following FAQ's answer:-\n\nt)Does volunteer get any wages for their service to institute?\nu)Does volunteer get recognized for their provided service?\nv)How can a volunteer claim certificate for the service he/she offered?\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+                                                  
+    {
+      "tag":"faq1",
+      "patterns":["t"],
+      "responses":["Que:-u)Does volunteer get any wages for their service to institute?\nAs of now ,there is no provision of salary/wages. All activities are voluntary & purely selfless.\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"faq2",
+      "patterns":["u"],
+      "responses":["Que:-v)Does volunteer get recognized for their provided service?\nA digital certificate will be provided to the volunteer, once the institute has\ngiven the feedback for the  service provided by the volunteer.\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"faq3",
+      "patterns":["v"],
+      "responses":["Que:-w)How can a volunteer claim certificate for the service he/she offered?\nDigital certificate can be downloaded from the portal, after the institute\nhas given the feedback forthe  service provided by the volunteer.\n\nPlease select any of the below sub-category:\n\nRegistration\nSupport Request\nUser Manual\nMain Category"]
+    },
+    {
+      "tag":"Public Grievance",
+      "patterns":["Public Grievance","Public grievance","public grievance","Grievance","grievance"],
+      "responses":["Please select any of the below sub-category\n\nwhat is Public Grievances?\n"]
+    },
+    
+    {
+      "tag":"Student related grievances",
+      "patterns":["Student related grievances","student related grievances","Student related grievance","student related grievance"],
+      "responses":["Refer All India Council for Technical Education (Redressal of Grievance of Students)\nRegulations, 2019 which is notified in Gazette of India on 19.11.2019.  As per these Regulations\nit is mandatory for Establishment of a Student Grievance Redressal Committee (SGRC)\nby all Institution and appointment of OMBUDSPERSON by all the affiliating Universities\nfor the purpose of redressal of grievances of the students. All aggrieved students may approach\nthe SGRC of the institution, in the first instance; and if they are not satisfied with the decision of the committee,\nthey may send their appeals to the respective OMBUDSPERSON of the concerned University"]
+    },
+
+    {
+      "tag":"About Public Grievance",
+      "patterns":["About Public Grievance","About public grievance","about public grievance"],
+      "responses":["Public Grievances deals with all types of grievances,\ncomplaints and malpractices including those received from Students,\nFaculty and other Stakeholders."]
+    },
+    {
+      "tag":"Ragging related grievance of student",
+      "patterns":["Ragging related grievance of students","Ragging related grievance of student","Ragging related grievance","ragging related grievance","Ragging grievance","ragging grievance"],
+      "responses":["Students in distress owing to ragging related incidents can call the National Anti ragging Helpline (Toll Free) Number (24x7)\n1800 - 180 - 5522 to file his/her complaint  and also directly lodged his/her complaint  through www.antiragging.in"]
+    },
+    {
+      "tag":"Violation of Norms and standards by AICTE approved Institute",
+      "patterns":["Violation of Norms and standards by AICTE approved Institute","Norms and Standards","Norms and standards","norms and standards"],
+      "responses":["In this regard if any person has any specific complaint against any AICTE approved institution\nregarding violation of norms and standards as prescribed in AICTE-Approval Process Handbook.\nThe complainant may send  duly signed hard copy of the same along with supporting documents/evidence,\nif any, with complete postal address directly  to Dy Director, Public Grievance Redressal Cell of AICTE Hqrs,\nNelson Mandela Marg, Vasant Kunj, New Delhi-110070."]
+    },
+    {
+      "tag":"Service related matters of faculty or staff of AICTE approved Institutions",
+      "patterns":["Service related matters of faculty or staff of AICTE approved Institutions","Service related matters","service related matters","Service of","service of"],
+      "responses":["Refer All India Council for Technical Education (Redressal of Grievance of Faculty/Staff Member)\nRegulations 2021 which is notified in the Gazette of India on 25.03.2021.\n  As per these Regulations, it is mandatory for all technical institution to address the grievance of faculty/staff\nmembers including service matters at the institution level itself. A Grievance Redressal Committee (GRC) for faculty/staff\nmembers shall be constituted by each institution to look into the grievance of the faculty/staff members.\nIn case faculty/staff is not satisfied with the decision of Grievance Redressal Committee, they may appeal to the concerned affiliating\nUniversity/ State DTE (in case of diploma institutions) for redressal of their grievances."]
+    },
+    {
+      "tag":"ATAL",
+      "patterns":["ATAL","Atal","atal"],
+      "responses":["Please select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants"]
+    },
+    {
+      "tag":"About ATAL",
+      "patterns":["About ATAL","About Atal","About atal","about atal"],
+      "responses":["To plan and help in imparting quality technical education in the country\nand to support technical institutions in fostering research, innovation and\nentrepreneurship through training in various emerging areas.\nPlease select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants\nMain Category"]
+    },
+    {
+      "tag":"Coordinator",
+      "patterns":["Coordinator","coordinator"],
+      "responses":["MoE has appointed nine National Coordinators viz UGC, NPTEL, CEC, IGNOU, NCERT,\nNIOS, IIMB, NITTTR & AICTE which have been assigned a specific sector for preparation of\nonline courses for SWAYAM AICTE is functioning as 9th National Coordinator (NC) for\nall courses that do not fall in the purview of any of the existing NCs, including foreign university\ncourses as per Terms of Reference contained in SWAYAM MOOC Guidelines 2017.\nPlease select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants\nMain Category"]
+    },
+    {
+      "tag":"Participants",
+      "patterns":["Participants","participants"],
+      "responses":["Following are the FAQs I can help you with:\n\ntype the letters for following FAQ's answer:-\n\n\nw)Even after meeting all the criteria I am not able to generate my certificate?\nx)Someone has attended the FDP/CPDP and is not able to download the certificate/not received the certificate?\ny)How to delete the entry of applied workshop by the participant?\nz)How many maximum FDPs/CPDPs, a participant can attend?\nPlease select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants\nMain Category"]
+    },
+    {
+      "tag":"faq1",
+      "patterns":["w"],
+      "responses":["Que:-Even after meeting all the criteria I am not able to generate my certificate?\nParticipants have to register on ATAL portal and their participation is to\nbe approved by the coordinator before the commencement of the FDP/CPDP. Certification has laid down criteria\nwherein participants must have 80% attendance, 70% marks in assessment and mandatory Feedback on ATAL Portal.\nPlease select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants\nMain Category"]
+    },
+    {
+      "tag":"faq2",
+      "patterns":["x"],
+      "responses":["Que:-Someone has attended the FDP/CPDP and is not able to download the certificate/not received the certificate?\nCertificate will be approved by the admin with in 2 working days in respect of participants fulfilling\nthe following criteria  Coordinator has uploaded Mandate, Logo and Signature  Participant approved\nby the Coordinator Has minimum 80% attendance, 70% marks, uploaded by Coordinator.\nOverall 90% and above shall be treated as distinction.  Filled and uploaded the feedback form.\nPlease select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants\nMain Category"]
+    },
+    {
+      "tag":"faq3",
+      "patterns":["y"],
+      "responses":["Que:-How to delete the entry of applied workshop by the participant?\nIf the status of your applied FDP/CPDP is 'Approved', then please contact the FDP/CPDP coordinator concerned to disapprove your\nIf the status of your applied FDP is Submitted, then you may delete your entry by pressing sign - (minus)\nfrom your login id under applied workshop.\nPlease select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants\nMain Category"]
+    },
+    {
+      "tag":"faq4",
+      "patterns":["z"],
+      "responses":["Que:-How many maximum FDPs/CPDPs, a participant can attend?\nA participant can sign up and attend a maximum of four FDPs/CPDPs (2 Basic and 2 Advance) per academic year.\nPlease select any of the below sub-category\n\nAbout ATAL\nCoordinator\nParticipants\nMain Category"]
+    },
+
+    {
+      "tag":"AQIS",
+      "patterns":["AQIS","Aqis","aqis"],
+      "responses":["I can help you with following Schemes:\n\nCAFES\nGOC\nIDEA Lab\nMODROB\nSPICES"]
+    },
+    {
+      "tag":"CAFES",
+      "patterns":["CAFES"],
+      "responses":["Please select any of the below sub-category\nAbout\n\nEligibility\nAQIS General\n\nPlease select any of the below sub-category\n\nCAFES\nGOC\nIDEA Lab\nMODROB\nSPICES\nMain Category"]
+    },
+    {
+      "tag":"About CAFES",
+      "patterns":["About CAFES","About Cafes","About cafes","about cafes"],
+      "responses":["Following are the FAQs I can help you with:\n\nWhat are the Objectives of the Scheme?\nDuration of Project?\nLimit of Funding from AICTE?\nDisbursement of the Funds?\n\nPlease select any of the below sub-category\nAbout\n\nEligibility\nAQIS General\nMain Category"]
+    },
+    {
+      "tag":"objective of cafes",
+      "patterns":["What are the Objectives of the Scheme?"],
+      "responses":["The scheme was initiated to facilitate continuation of education and also interaction\nbetween the students beyond class hours for their all-around development.\nThe scheme supports Government/ Government-aided engineering colleges/ University departments/ Polytechnics\n for construction of hostel in the campus.Please select any of the below sub-category\nAbout\n\nEligibility\nAQIS General\nMain Category"]
+    },
+    {
+      "tag":"Duration of Project",
+      "patterns":["Duration of Project","Duration of CAFES","Duration of Cafes","Duration of cafes","duration of cafes"],
+      "responses":["The hostel has to be completed in 3 years."]
+    },
+    {
+      "tag":"Limit of Funding from AICTE",
+      "patterns":["Limit of Funding from AICTE?"],
+      "responses":["Limit oRs. 3 crore are given for hostel and Rs. 25 lakh for indoor sports;\n gym equipemnts and library, in the hostel.f Funding from AICTE?"]
+    },
+    {
+          "tag":"Disbursement of the Funds",
+          "patterns":["Disbursement of the Funds?"],
+          "responses":["Disbursement of 50% of the amount (1st installment) in advance upon sanction of proposal then 40% of amount\n(2nd installment), and 10% on submitting completion certificate by registered Civil engineer."]
+          },
+            {
+                "tag":"Eligibility",
+                "patterns":["Eligibility"],
+                "responses":["Following are the FAQs I can help you with:\n\nWe are a Private University? Are we eligible to apply for this Scheme?\nEssential documents to be uploaded on AICTE portal ?"]
+                },
+                {
+                    "tag":"We are a Private University? Are we eligible to apply for this Scheme",
+                    "patterns":["We are a Private University? Are we eligible to apply for this Scheme"],
+                    "responses":["Hostel Plan\nAbstract of the estimate\nPWD rate certificate, etc. according to scheme documents."]
+                    },
+                    {
+                        "tag":"GOC",
+                        "patterns":["GOC","goc"],
+                        "responses":["Please select any of the below sub-category\n\nAbout GOC\nGOC General"]
+                        },
+                        {
+                            "tag":"About GOC",
+                            "patterns":["About GOC"],
+                            "responses":["Following are the FAQs I can help you with:\n\nWill the cost of online webinar platform be included in the expenditure  for online conference?\nProcedure or guidelines for remuneration  honorarium for Indian or Foreign Key speaker/ guest lecture in the conference?\nIf both coordinator & co-coordinator is transferred/ changed then how does the detail of another coordinator get updated?\n"]
+                            },
+                                              {
+                                                  "tag":"###Will the cost of online webinar platform be included in the expenditure  for online conference",
+                                                  "patterns":["Will the cost of online webinar platform be included in the expenditure  for online conference",""],
+                                                  "responses":["No, Not included"]
+                                                  },
+                                                  {
+                                                      "tag":"Procedure or guidelines for remuneration  honorarium for Indian or Foreign Key speaker/ guest lecture in the conference",
+                                                      "patterns":["Procedure or guidelines for remuneration  honorarium for Indian or Foreign Key speaker/ guest lecture in the conference","Guidelines for remuneration","guidelines for remuneration","remuneration guideline","Remuneration guidline"],
+                                                      "responses":["No such guidelines, institutes may manage at their own."]
+                                                      },
+                                                      {
+                                                          "tag":"##If both coordinator & co-coordinator is transferred/ changed then how does the detail of another coordinator get updated",
+                                                          "patterns":["If both coordinator & co-coordinator is transferred/ changed then how does the detail of another coordinator get updated"],
+                                                          "responses":["Go to Request for Change of coordinator attach letter with new coordinator\nname designation e mail and phone number duly signed by HoI and submit. Institute must appoint another faculty\nas coordinator with qualifications and experience must be matching with\nthe previous one and take approval by AICTE"]
+                                                          },
+                                                          {
+                                                              "tag":"GOC General",
+                                                              "patterns":["GOC General","Goc General","GOC general","goc general"],
+                                                              "responses":["Following are the FAQs I can help you with:"]
+                                                              },
+                                                              {
+                                                                  "tag":"What is Unique Agency Code",
+                                                                  "patterns":["What is Unique Agency Code","Unique agency code","unique agency code"],
+                                                                  "responses":["Unique Agency Code is a Unique code for the Agency to be given at the time of registration on PFMS portal."]
+                                                                  },
+                                                                  {
+                                                                      "tag":"Problem of component mapping due to bank account merged with some other bank",
+                                                                      "patterns":["Problem of component mapping due to bank account merged with some other bank"],
+                                                                      "responses":["Institute have to register their bank account again with the new IFSC code\nafter that you will be able to do the component maping"]
+                                                                      },
+                                                                      {
+                                                                          "tag":"Can I use same bank account for multiple Schemes",
+                                                                          "patterns":["Can I use same bank account for multiple Schemes","same bank account for multiple Schemes","same bank account for multiple Scheme"],
+                                                                          "responses":["Yes, you can use"]
+                                                                          },
+                                                                          {
+                                                                              "tag":"Can I register my institute with Account in India Post",
+                                                                              "patterns":["Can I register my institute with Account in India Post","Account in india post","account in india post"],
+                                                                              "responses":["Yes, you can register"]
+                                                                              },
+                                                                              {
+                                                                                  "tag":"IDEA Lab",
+                                                                                  "patterns":["IDEA Lab","Idea lab","idea lab"],
+                                                                                  "responses":["Please select any of the below sub-category\n\nAbout IDEA Lab\nIDEA Lab Eligibilty\nIDEA Lab General"]
+                                                                                  },
+                                                                                  {
+                                                                                      "tag":"About IDEA Lab",
+                                                                                      "patterns":["About IDEA Lab","About idea lab","about idea lab"],
+                                                                                      "responses":["Following are the FAQs I can help you with:\n\nWhat is AICTE - IDEA Lab ?\nIs their any website for IDEA Lab?\nWhere we get Scheme related information?\n"]
+                                                                                      },
+                                                                                      {
+                                                                                          "tag":"What is AICTE - IDEA Lab ?",
+                                                                                          "patterns":["What is AICTE - IDEA Lab","What is aicte idea lab","what is aicte idea lab"],
+                                                                                          "responses":["AICTE-IDEA (Idea Development, Evaluation & Application) Lab is a 24*365 facility\nto support translation of an idea into a prototype."]
+                                                                                          },
+                                                                                          {
+                                                                                              "tag":"Is their any website for IDEA Lab",
+                                                                                              "patterns":["Is their any website for IDEA Lab","website for idea lab"],
+                                                                                              "responses":["Yes, idealnet.aicte-india.org is the dedicated website for AICTE-IDEA Lab Scheme."]
+                                                                                              },
+                                                                                              {
+                                                                                                  "tag":"Where we get Scheme related information",
+                                                                                                  "patterns":["Where we get Scheme related information","scheme related information"],
+                                                                                                  "responses":["Kindly visit the idealnet.aicte-india.org website and download the scheme document for more information."]
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "tag":"About MODROB",
+                                                                                                      "patterns":["MODROB","modrob"],
+                                                                                                      "responses":["Email address: modrobidc@aicte-india.org, Phone Number: (011) 29581303"]
+                                                                                                      },
+                                                                                                     
+                                                                                                         
+                                                                                                              {
+                                                                                                                  "tag":"MODROB",
+                                                                                                                  "patterns":["MODROB","modrob"],
+                                                                                                                  "responses":["Please select any of the below sub-category\n\nAbout MODROB\nMODROB General"]
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                      "tag":"MODROB General",
+                                                                                                                      "patterns":["MODROB General","Modrob General","modrob general"],
+                                                                                                                      "responses":["Following are the FAQs I can help you with:\n\nWe are a Private University, are we eligible to apply for  MODROB Scheme?\n"]
+                                                                                                                      },
+                                                                                                                  {
+                                                                                                                      "tag":"###We are a Private University, are we eligible to apply for  MODROB Scheme",
+                                                                                                                      "patterns":["We are a Private University, are we eligible to apply for  MODROB Scheme"],
+                                                                                                                      "responses":["AICTE approved Technical Institutions (including Polytechnics) / University Departments can\nonly apply for this Scheme. If, however, the private university is approved by AICTE, then you are eligible to apply."]
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "tag":"What rules are to be followed for procurement of equipment in the project sanctioned",
+                                                                                                                          "patterns":["What rules are to be followed for procurement of equipment in the project sanctioned","rules for procurement","rules of procurement"],
+                                                                                                                          "responses":["To utilize this grant, you must follow the GoI rules under laid down in Chapter 6 PROCUREMENT OF GOODS AND SERVICES of the GFR 2017. Copy of which can be accessed from https://doe.gov.in/sites/default/files/GFR2017_0.pdf"]
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "tag":"###Can the equipment purchased be used for research and consultancy",
+                                                                                                                              "patterns":["Can the equipment purchased be used for research and consultancy"],
+                                                                                                                              "responses":["Yes, AICTE encourages optimum utilization of equipment under MODROB which are primarily\nprovided to augment the quality of UG teaching. They can be used to offer internships,\nconduct training and research work also."]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "tag":"Are the equipment to be shared with others",
+                                                                                                                                  "patterns":["Are the equipment to be shared with others","share the equipment with others"],
+                                                                                                                                  "responses":["Yes, It is mandatory to inform availability of equipment's for use by\nothers through the i-STEM poral. (www.istem.gov.in)"]
+                                                                                                                                  },
+                                                                                                                                  {
+                                                                                                                                      "tag":"SPICES",
+                                                                                                                                      "patterns":["SPICES","spices"],
+                                                                                                                                      "responses":["Please select any of the below sub-category\n\nAbout SPICES\nSPICES Eligibility\nSPICES General"]
+                                                                                                                                      },
+                                                                                                                                      {
+                                                                                                                                          "tag":"What is the aim of this scheme",
+                                                                                                                                          "patterns":["What is the aim of this scheme","Aim of scheme","aim of scheme"],
+                                                                                                                                          "responses":["Every technical institution encourages student activities by way of student clubs which help in their overall grooming.\nThe idea behind this scheme is to have at least one club evolved as model club with assistance from AICTE and institution.\nThe chosen club must utilize the combined grant to take up activities and also raise funds for them.\n\nPlease select any of the below sub-category\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                          },
+                                                                                                                                          {
+                                                                                                                                              "tag":"What is AICTE expecting from the institution",
+                                                                                                                                              "patterns":["What is AICTE expecting from the institution","aicte expecting from the institution"],
+                                                                                                                                              "responses":["AICTE expects institution to fund its other clubs in a similar fashion and intensify their activities.\nVibrant clubs will attract attention of other institutions and inspire the latter to emulate.\nThus there will be intensification of club activities across the country.\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                              },
+                                                                                                                                              {
+                                                                                                                                                  "tag":"SPICES Eligibility",
+                                                                                                                                                  "patterns":["SPICES Eligibility","SPICES eligibility","spices eligibilty"],
+                                                                                                                                                  "responses":["Following are the FAQs I can help you with:\n\nAre Students Chapters and Students Societies also eligible to apply?\nCan non-technical/ non-engineering clubs apply under this scheme\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                                  },
+                                                                                                                                                  {
+                                                                                                                                                      "tag":"Are Students Chapters and Students Societies also eligible to apply",
+                                                                                                                                                      "patterns":["Are Students Chapters and Students Societies also eligible to apply","students chapters","students societies"],
+                                                                                                                                                     
+                                                                                                                                                      "responses":["Yes, you are eligible\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                                      },
+                                                                                                                                                      {
+                                                                                                                                                          "tag":"Can non-technical/ non-engineering clubs apply under this scheme",
+                                                                                                                                                          "patterns":["Can non-technical/ non-engineering clubs apply under this scheme","non-technical/ non-engineering","non-technical","non-engineering","non technical/ non engineering","non technical","non engineering"],
+                                                                                                                                                          "responses":["Yes, club from any discipline/ theme/ stream in AICTE approved institution can be proposed by\nthe institute under this scheme, provided it fulfils the other eligibility conditions.\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category "]
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "tag":"What are the strong points which enhance possibility of support from AICTE",
+                                                                                                                                                              "patterns":["What are the strong points which enhance possibility of support from AICTE","enhance possibility"],
+                                                                                                                                                              "responses":["Past achievements of the club, its interface with industry/ professional body,\nachievements of the Faculty Coordinator, credentials of the institute.\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                                              },
+                                                                                                                                                              {
+                                                                                                                                                                  "tag":"SPICES General",
+                                                                                                                                                                  "patterns":["SPICES General","SPICES General","Spices general","spices general"],
+                                                                                                                                                                  "responses":["Following are the FAQs I can help you with:\n\nHow many proposals can be submitted by the institute? \n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                                                  },
+                                                                                                                                                                  {
+                                                                                                                                                                      "tag":"How many proposals can be submitted by the institute",
+                                                                                                                                                                      "patterns":["How many proposals can be submitted by the institute","How many proposals","how many proposals","Number of proposal","number of proposal\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"],
+                                                                                                                                                                      "responses":["Institute can seek support for one club only,\nfor which it must be willing to support financially also."]
+                                                                                                                                                                      },
+                                                                                                                                                                      {
+                                                                                                                                                                          "tag":"#####Will my institute be eligible to apply  if project is granted once",
+                                                                                                                                                                          "patterns":["Will my institute be eligible to apply  if project is granted once"],
+                                                                                                                                                                          "responses":["no,your institue is not eligible.\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                                                          },
+                                                                                                                                                                          {
+                                                                                                                                                                              "tag":"#####Can I get the remittance in favor of the Coordinator's account name",
+                                                                                                                                                                              "patterns":["Can I get the remittance in favor of the Coordinator's account name"],
+                                                                                                                                                                              "responses":["No, the grant can only be released in favor of the Director/ Principal/ Registrar\nof the institution.\nApplicant must provide duly-filled mandate form having seal\nand signature of the bank authority.\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                                                              },
+                                                                                                                                                                              {
+                                                                                                                                                                                  "tag":"##The club intends to organize events jointly with other institutes/ organization. Is that encouraged",
+                                                                                                                                                                                  "patterns":["The club intends to organize events jointly with other institutes/ organization. Is that encouraged"],
+                                                                                                                                                                                  "responses":["Yes, such clubs will be given preference, provided the collaboration is\nwith a reputed organization/ institution/ agency/ body etc.\n\nAbout SPICES\nSPICES Eligibility\nSPICES General\nMain Category"]
+                                                                                                                                                                                  },
+                                                                                                                                                                                 
+                                      {
+                                          "tag":"SWAYAM",
+                                          "patterns":["SWAYAM","Swayam","About Swayam"],
+                                          "responses":["Please select any of the below sub-category\nAbout SWAYAM\nARPIT Scheme\nCourses"]
+                                      },
+                                      {
+                                          "tag":"SWAYAM",
+                                          "patterns":["SWAYAM","Swayam","About Swayam"],
+                                          "responses":["SWAYAM is one of the World's largest Online Free E-Learning Platform indigenously developed by AICTE under Ministry of Education,\nGovernment of India to achieve  three cardinal principles of Education Policy viz., Access,\nEquity and Quality by covering School/ Vocational, Under-Graduate, Post Graduate, Engineering and Other Professional Courses."]
+                                          },
+                                          {
+                                              "tag":"What are MooC courses ",
+                                              "patterns":["MOOC Courses","mooc courses"],
+                                              "responses":["MOOCs means Massive Open Online Courses.  Such MOOCs  are free online courses available on SWAYAM Platform\naccessible by all  to enroll. MOOCs provide an affordable and flexible way to learn new skills for\nadvancement of one's  career through  deliver of quality e-learning."]
+                                              },
+                                              {
+                                                  "tag":"What are the advantages of SWAYAM ",
+                                                  "patterns":["Advantages of SWAYAM","advantages of SWAYAM","Advantages of swayam","advantages of swayam"],
+                                                  "responses":["SWAYAM Platform  is  One-stop web and mobile based interactive e-content for\nall courses from High School to University level.\nHigh quality learning experience using multimedia on anytime, anywhere basis\nState of the art system that allows easy access, monitoring and certification.\nPeer group interaction and discussion forum to clarify doubts\nHybrid model of delivery that adds to the quality of classroom teaching."]
+                                                  },
+                                                  {
+                                                      "tag":"ARPIT Scheme",
+                                                      "patterns":["ARPIT Scheme","Arpit Scheme","Arpit scheme","arpit scheme"],
+                                                      "responses":["After completion of ARPIT course, an online exam will be conducted\nAfter successful  completion of ARPIT Exam, the learner will be issued certificate of\ncompletion of course. Successful completion of one ARPIT course with certificate \nwill be equivalent to one refresher  course of UGC for Career Advancement Scheme (CAS)\nas notified by the latest gazette of UGC."]
+                                                      },
+
+
+
+
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+                                    
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    }
+                                                                                                                                    
+                                                                              
+                                                                                                                                
+                                                                                    
+                                                                                 
+    
+                                                                   
+   
+    
+ 
+  ]
+}
